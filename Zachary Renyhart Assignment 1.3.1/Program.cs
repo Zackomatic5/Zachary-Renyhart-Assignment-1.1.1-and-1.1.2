@@ -45,6 +45,9 @@
                         double Width = Convert.ToDouble(Console.ReadLine());
                         Console.WriteLine(RectangleMethod(Length, Width));
                         break;
+                    case "X":
+                    case "x":
+                        break; //This prompts when ther user presses X they will leave the application
 
                     default: //This states that any letter other than the ones clarified above with default to the line of code "Invalid Statement"
                         Console.WriteLine("Invalid Statement, Please enter the correct letter");

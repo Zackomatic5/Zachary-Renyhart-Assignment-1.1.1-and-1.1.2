@@ -23,7 +23,7 @@ namespace Zachary_Renyhart_Assignment_1._3._2
                 }
 
                 string[] Array = { "Ten", "Two", "Thirty" };
-                Console.WriteLine([0]);            }
+                         }
         }
 
     }
