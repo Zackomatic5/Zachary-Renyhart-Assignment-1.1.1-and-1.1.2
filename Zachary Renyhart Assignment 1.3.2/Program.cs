@@ -8,23 +8,28 @@ namespace Zachary_Renyhart_Assignment_1._3._2
     {
         static void Main(string[] args)
         {
-
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            int length = numbers.Length;
+            int temp = 1;
+            foreach (int i in numbers)
             {
-                int[] ForwardArray = { 5, 6, 7 };
-                Console.WriteLine("This is the forward array ");
-                for (int i = 0; i < ForwardArray.Length; i++)
-                {
-                    Console.WriteLine($"{ForwardArray[i]}");
-                }
-                int[] ReverseArray = { 5, 6, 7 };
-                for (int i = 0; i > ReverseArray.Length - i; i--)
-                {
-                    Console.WriteLine(ReverseArray[i]);
-                }
+                Console.WriteLine(i);
+            }
+            for (int i = 0; i < (numbers.Length / 2); i++)
+            {
+                temp = numbers[i]; //This means temp = array #1
+                numbers[i] = numbers[length - i - 1]; //This is assigning the last value to the first value
+                numbers[length - i - 1] = temp;
+               
+            }
+            foreach (int i in numbers)
+            {
+                Console.WriteLine(i);
+            }
+           
+           
+        }   
 
-                string[] Array = { "Ten", "Two", "Thirty" };
-                         }
-        }
 
     }
 }
