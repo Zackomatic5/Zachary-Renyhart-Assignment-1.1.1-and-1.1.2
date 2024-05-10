@@ -18,6 +18,20 @@
             {
                 Console.WriteLine(cars[i]); //I is displayed as INDEX (element)
             }
+
+
+
+            int[] baseball = { 5, 7, 9, 11, 13 };
+            int n = baseball.Length;
+            int temp = 0;
+            foreach (int i in baseball)
+            {
+                Console.WriteLine(i);
+            }
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            Console.WriteLine(numbers[1]); //This writes the specific number in the array 
         }   
+       
+            
     }
 }
