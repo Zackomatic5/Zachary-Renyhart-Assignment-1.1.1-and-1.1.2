@@ -11,7 +11,6 @@ namespace Zachary_Renyhart_Assignment_3._1._3
             string input = Console.ReadLine();
             Console.WriteLine("You have this many spaces in this sentence: " + CountSpaces(input));
         }
-
         static int CountSpaces(string input) //This is a method to find the number of spaces in this sentence prompted above
         {
             int count = 0;
