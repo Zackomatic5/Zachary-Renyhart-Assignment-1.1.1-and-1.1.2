@@ -9,6 +9,7 @@
             Console.WriteLine("Please enter the Y value of your problem so we can find the quadrant: ");
             double num2 = Convert.ToDouble(Console.ReadLine());
           //This is all if statements
+ 
             
             if (num1 > 0 && num2 > 0)
             { 
