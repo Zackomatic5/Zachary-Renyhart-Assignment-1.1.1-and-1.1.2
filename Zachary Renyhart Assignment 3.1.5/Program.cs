@@ -14,7 +14,6 @@
             static void FindNumbers(int[] myArray ) //This is finding the first 
             {
 
-
                 for (int i = 0; i < myArray.Length - 1; i++)
                 {
                     if (myArray[i] == myArray[i + 1])
