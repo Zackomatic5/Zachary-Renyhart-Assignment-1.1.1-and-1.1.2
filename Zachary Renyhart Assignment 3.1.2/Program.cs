@@ -13,10 +13,8 @@ namespace Zachary_Renyhart_Assignment_3._1._2
 
 
 
-
-
             static void myMethod(int year) //This is my method to figure out if it is a leap year
-            {
+            {          
                 if (DateTime.IsLeapYear(year)) //If it is it will display yes
                 {
                     Console.WriteLine("It is a leap year!!");
