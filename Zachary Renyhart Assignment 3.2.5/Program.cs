@@ -23,7 +23,7 @@ namespace Zachary_Renyhart_Assignment_3._2._5
                 }
 
             }
-            return -1;
+            return -1;//If num1 is not equal to the array, it will dispaly -1
         } 
     }
 }
