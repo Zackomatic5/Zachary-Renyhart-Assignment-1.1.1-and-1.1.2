@@ -21,7 +21,7 @@ namespace Zachary_Renyhart_Assignment_3._2._4
             double[] returnArray = TotalAverage(inputArray);
             Console.WriteLine($"The total is {returnArray[0]} and the average is {returnArray[1]}");
         }
-        static double[] TotalAverage(double[] methodInput)
+        static double[] TotalAverage(double[] methodInput)//This method is created for the data and variables above.
         {
             double total =  methodInput[0] + methodInput[1] + methodInput[2] + methodInput[3];
             double average = total / 4;
