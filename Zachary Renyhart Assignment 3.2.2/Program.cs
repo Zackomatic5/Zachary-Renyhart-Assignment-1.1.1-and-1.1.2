@@ -16,7 +16,7 @@
                 for (int j = 0; j < columns; j++)
                 {
                     Console.Write(" | ");
-                    Console.Write(numbers[i, j] + numbers2[i, j]);
+                    Console.Write(numbers[i, j] + numbers2[i, j]);//This is adding both arrays from above
 
                 }
                 Console.Write(" | ");
