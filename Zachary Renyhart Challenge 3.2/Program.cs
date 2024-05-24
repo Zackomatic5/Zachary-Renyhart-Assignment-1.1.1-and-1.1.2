@@ -20,7 +20,7 @@ namespace Zachary_Renyhart_Challenge_3._2
                     {
                     sum = sum + number;
                     }
-                                                 
+                                                
             }
             Console.WriteLine($"The total of the numric digits is {sum}");
         }
