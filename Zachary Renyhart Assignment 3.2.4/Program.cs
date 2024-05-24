@@ -26,7 +26,7 @@ namespace Zachary_Renyhart_Assignment_3._2._4
             double total =  methodInput[0] + methodInput[1] + methodInput[2] + methodInput[3];
             double average = total / 4;
             double[] outputArray = {total, average}; //This is returning 2 different values which is why an array was created.
-            return outputArray;
+            return outputArray;     //Total is now calling return array[0] and average is [1]
 
         }
     }
