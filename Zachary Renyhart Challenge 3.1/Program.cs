@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Please enter a word to check if it is a palindrome!: ");
             string word = Console.ReadLine();
-            
+           
             if(TestPalindrome(word))
             {
                 Console.WriteLine($"{word} is a palindrome.");
