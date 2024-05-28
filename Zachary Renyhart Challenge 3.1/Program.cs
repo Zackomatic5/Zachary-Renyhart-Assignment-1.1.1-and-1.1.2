@@ -26,7 +26,7 @@
             for (int i = 0; i < word.Length / 2; i++)
             {  //This is showing the first letter is the same as the last 
                //the length of the string
-                if (!(word[i] == word[word.Length - 1 - i]))
+                if ((word[i] != word[word.Length - 1 - i]))
                 {
                     return false;                    
                 }
