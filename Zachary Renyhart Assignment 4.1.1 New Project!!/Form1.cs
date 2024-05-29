@@ -2,7 +2,7 @@ namespace Zachary_Renyhart_Assignment_4._1._1_New_Project__
 {
     public partial class Form1 : Form
     {
-
+        //This dictionary is linking the information for the string used!!
         //This is instantiating the dictionary class to the object ContactBook            
         Dictionary<string, Person> contactBook = new Dictionary<string, Person>();
         //This is creating a contact book dictionary list.
