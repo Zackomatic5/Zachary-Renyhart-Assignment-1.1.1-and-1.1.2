@@ -6,22 +6,28 @@ namespace Week_3_Weekend_practice
     {
         static void Main(string[] args)
         {
-            int[,] ints = { { 1, 2, 3, 4, } , {5, 6, 7, 8 } };
-            int rows = ints.GetLength(0);
-            int cols = ints.GetLength(1);
-            for (int i = 0; i < rows; i++)
+            Console.WriteLine("Please enter a word: ");
+            string palindrome = Console.ReadLine();
+            myMethod(palindrome);
+
+
+            static bool myMethod(string palindrome)
             {
-                Console.Write(" | ");
+                for (int i = 0; i < palindrome.length / 2; i++)
+                  
+                    if (palindrome[i] == palindrome[palindrome.length - i - 1)
+                            {
+        
+                             }
                 
 
-                for (int j = 0; j < cols; j++)
-                {
-                    Console.WriteLine(ints[i, j] + ints[i,j] + " | ");  
-                    
-                }
-                Console.WriteLine();
+           
             }
+                else
+            {
+                return false;
 
+            }
 
         }
     }
