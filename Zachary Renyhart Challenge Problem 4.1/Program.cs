@@ -19,7 +19,7 @@ namespace Zachary_Renyhart_Challenge_Problem_4._1
                     double num = 1.20;
                     Console.WriteLine($"Amount Charges @ $1.20 a unit are $ {MyMethodOne(num, UnitUsed)}");
                     Console.WriteLine();
-                    break;
+                break;
 
                 case <= 399:
                     double num2 = 1.50;
