@@ -33,7 +33,7 @@
             {   //This now checks that the [1] index and the second to last index match
                 return isPalindrome(word.Substring(1, word.Length-2));
             }
-
+            
             
         }
     }
