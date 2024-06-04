@@ -12,7 +12,7 @@
           int sum = 0;
 
             for (int i = 0; i < number.Length; i++)
-            {   //This is converting every index to a integer.             
+            {   //This is converting every index to a integer. Because originally they are a char.             
                 sum += Convert.ToInt32(Convert.ToString(number[i]));
                 //+= is adding and equaling every integer typed.
             }

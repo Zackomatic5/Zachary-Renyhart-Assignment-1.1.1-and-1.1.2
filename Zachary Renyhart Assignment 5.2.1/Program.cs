@@ -13,12 +13,6 @@
             {
                 Console.WriteLine($"The number of letters in the last word is: {Result[Result.Length - 1].Length}");
             }
-                
-                    
-                
-                 
-            
-            
 
 
         }
