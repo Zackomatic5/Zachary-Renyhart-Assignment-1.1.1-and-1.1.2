@@ -40,6 +40,8 @@ namespace Day_16_Class_notes
             Numbers(sum1, 1);
             Console.WriteLine();
             Console.WriteLine("This is adding the numbers");
+
+            
         }
         public static double Factorial(int number)
         {
@@ -82,5 +84,7 @@ namespace Day_16_Class_notes
                 Numbers(length, amount);
             }
         }
+
+        
     }
 }

@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Please enter a word to see if it is palindrome: ");
-            string word = Console.ReadLine();
+            string word = Console.ReadLine().ToLower().Trim();
             //This makes it so if this word is or isnt palindrome it will be displayed below
             if(isPalindrome(word))
             {
@@ -15,12 +15,13 @@
             {
                 Console.WriteLine($"{word} is not palindrome");
             }
-
+            
         }
 
 
         public static bool isPalindrome(string word) 
         {
+            
             if (word.Length <= 1 ) 
             {
                 return true;
@@ -31,10 +32,12 @@
             }
             else
             {   //This now checks that the [1] index and the second to last index match
-                return isPalindrome(word.Substring(1, word.Length-2));
+                return isPalindrome(word.Substring(+1, word.Length-2));
             }
             
             
         }
+        
+    
     }
 }
