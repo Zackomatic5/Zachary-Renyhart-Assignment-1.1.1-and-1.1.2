@@ -9,10 +9,15 @@
             string sentence = Console.ReadLine().Trim();
             //This splits the strings into words
             string[] Result = sentence.Split(' ');
+            
             //This is showing that the array length of result is greater than 0
             
             if (Result.Length >= 0)
             {
+                if (Result.Length-1 == ' ')
+                {
+                    return;
+                }
                 Console.WriteLine($"The number of letters in the last word is: {Result[Result.Length - 1].Length}");
             }
             
