@@ -44,10 +44,10 @@ namespace Day_16_Class_notes
             
 
 
-            //This is using a dictionary and finding the letter that only occurs once.
+            //This is using a DICTIONARY and finding the letter that only occurs once.
             string[] array = { "a", "b", "a", "c", "c" };
             Dictionary<string, int> dictionary = new Dictionary<string, int>();
-
+            //letter variable is just made up to hold a "String"
             foreach (string letter in array)
             {   //If the dictionary contains the letter already this will add 1 to it.
                 if (dictionary.ContainsKey(letter))
@@ -63,12 +63,12 @@ namespace Day_16_Class_notes
             {   //If the element of the array is only shown once it will show below
                 if (dictionary[num] == 1)
                 {
-                    Console.WriteLine($"This element only has one value {num}");
+                    Console.WriteLine($"This element only has one value: {num}");
                 }
             }
             
 
-
+            //This is a HASH set!!!
             int[] arrays = { 1, 2, 4, 5, 6, 7 };
             HashSet<int> nums = new HashSet<int>();
             //A Hashset holds one unique value instead of a dictionary which is a Key, Value.
@@ -85,12 +85,28 @@ namespace Day_16_Class_notes
                     Console.WriteLine($"The number that is missing is: {i}");
                 }
             }
+
+            int[] arrayss = { 1, 2, 3, 4, 5 };
+            NewMethod(arrayss);
+            Console.WriteLine(arrays.ToString());
+            //This is creating an array that holds 5 Intergers
+            int[] numberArray = new int[5];
+
+
+            //TO ADD MORE STUFF PUT IT HERE FOR THE MAIN METHOD
+
+        }
+        public static int[] NewMethod(int[] inputData)
+        {   //This is showing how to use a method for an array.
+            inputData[2] = 5;
+            
+            return inputData;
         }
 
 
 
 
-        //This is a recursive method
+        //This is a Recursive method!!
         public static double Factorial(int number)
         {
             if (number == 0)
@@ -122,7 +138,7 @@ namespace Day_16_Class_notes
 
         }
 
-        //This is overloading paramaters 
+        //This is overloading paramaters above in the main method!!
         public static void Numbers(int length, int amount)
         {   //For a reverse we want to keep the numbers the same
             if (amount <= length)

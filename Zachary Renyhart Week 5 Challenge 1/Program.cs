@@ -5,14 +5,14 @@ namespace Zachary_Renyhart_Week_5_Challenge_1
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   
             int[] array = { 5, 3, 3, 5, 2 };
            
             Dictionary<int, int> numbers = new Dictionary<int, int>();
             
             //The first 5 will skip the if statement and go to the else statement because it is not in the dictionary.
             foreach (int num in array)
-            {   //num is the key, count is the value
+            {   //num is the key, 1 is the value
                 
                 //if the dictionary already has the "Key" then it will add 1
                 if (numbers.ContainsKey(num))
@@ -28,13 +28,13 @@ namespace Zachary_Renyhart_Week_5_Challenge_1
               foreach (int element in numbers.Keys)
             {   //If the element of the array is only shown once it will show below
                 if (numbers[element] == 1)
-                {
-                    Console.WriteLine(element);
+                {//However many elements have the value of "1". They will all display below.
+                  Console.WriteLine($"The element that only populates once is: {element}");
                 }
             }
         
       
-
+            
 
         }
       
