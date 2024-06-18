@@ -32,12 +32,12 @@
                 }
             }
         }
-        static void PrintArray(int[] array) 
-            {
+        static void PrintArray(int[] array)
+        {
             foreach (int i in array)
             {
                 Console.Write(i + " ");
             }
-            } 
+        } 
     }
 }
