@@ -152,4 +152,8 @@ namespace Day_16_Class_notes
 
         
     }
+    public class People
+    {
+        public People Name { get; set; }
+    }
 }

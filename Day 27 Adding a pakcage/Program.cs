@@ -1,17 +1,12 @@
 ﻿using BinaryTree;
 
-namespace Zachary_Renyhart_Assignment_7._3._1
+
+namespace Day_27_Adding_a_pakcage
 {
     internal class Program
     {
-
-
-        //You are given the root of a binary search tree (BST) and an integer val.
-
-        //Find the node in the BST that the node's value equals val and
-        //return the subtree rooted with that node. If such a node does not exist,
-        //return null.
         static void Main(string[] args)
+            //We added the Binary Tree package.
         {
             //Instantiate a new binary tree   //This is a constructor
             BinaryTree<int> binarytree = new BinaryTree<int>();
@@ -25,7 +20,7 @@ namespace Zachary_Renyhart_Assignment_7._3._1
             binarytree.Add(22);
             binarytree.Add(15);
             binarytree.Add(13);
-
+           
             foreach (var item in binarytree)
             {
                 Console.Write(item + " ");
@@ -36,15 +31,8 @@ namespace Zachary_Renyhart_Assignment_7._3._1
             //This is printing the binary tree
             binarytree.PrintAsTree();
             //This displays true if the binary tree contains "8".
-
-
-
-
+           
         }
 
-    }
-    public class BST<T>
-    {
-    
     }
 }

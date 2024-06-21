@@ -23,7 +23,7 @@
                 {
                     int j;
                     int temp = array[i]; //If the element at array[j - num] is greater than temp, shift it to the right.
-                    for (j = i; j >= num && array[j - num] > temp; j -= num)
+                    for (j = i; j >= num && array[j - num] > temp; j = j - num)
                     {//Compares adjacent elements within the gap: ^^
                         array[j] = array[j - num];
                         

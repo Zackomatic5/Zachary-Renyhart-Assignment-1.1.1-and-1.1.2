@@ -11,7 +11,7 @@
             Console.WriteLine($"This is your word with vowels reversed: {output}");
 
         }
-
+        
         static string ReverseVowels(string input)
         {
             string output = "";
@@ -21,7 +21,7 @@
             //While i is less than j. Because i is working from the front and j is working 
             
             //from the back. When they meet in the middle the while loop conditon is false.
-            //This is turning input to an array of characters.
+            //This is turning input to an array "[]" of characters.
             char[] str1 = input.ToCharArray();
 
             while (i < j)
@@ -53,7 +53,7 @@
                        
             return str2;
         }
-        static Boolean IsVowel(char c)
+        static bool IsVowel(char c)
         {
             return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
         }
