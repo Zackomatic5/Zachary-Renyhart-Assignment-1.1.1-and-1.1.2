@@ -19,7 +19,7 @@ namespace Zachary_Renyhart_Assignment_7._4._1
 
     public class ParkingSystem
     {
-
+        
         private int bigSpots;
         private int mediumSpots;
         private int smallSpots;
