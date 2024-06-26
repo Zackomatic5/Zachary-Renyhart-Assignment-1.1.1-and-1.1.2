@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             TreeNode tree = new TreeNode();
+            //This is manually creating all of the nodes on the left and right sides of the node
              tree = new TreeNode(1);
             tree.left = new TreeNode(2);
             tree.right = new TreeNode(2);
@@ -12,6 +13,7 @@
             tree.left.right = new TreeNode(4);
             tree.right.left = new TreeNode(4);
             tree.right.right = new TreeNode(3);
+            //This is calling the method and checking to see if it is symmetrical or not.
             if (IsSymmetric(TreeNode, tree))
             {
                 Console.WriteLine("Symmetrical");
@@ -29,7 +31,7 @@
         public bool IsSymmetric(TreeNode root)
         {
             var queue = new Queue<TreeNode>();
-
+            //This is creating a quee from the TreeNode class
             queue.Enqueue(root.left);
             queue.Enqueue(root.right);
 
