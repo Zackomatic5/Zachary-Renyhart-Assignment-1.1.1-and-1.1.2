@@ -14,21 +14,22 @@
             tree.right.left = new TreeNode(4);
             tree.right.right = new TreeNode(3);
             //This is calling the method and checking to see if it is symmetrical or not.
-            if (IsSymmetric(TreeNode, tree))
+            
+            if (IsSymmetric(tree))
             {
-                Console.WriteLine("Symmetrical");
+                Console.WriteLine("The Tree is Symmetrical");
 
             }
             else
             {
-                Console.WriteLine("Not Symmetrical");
+                Console.WriteLine("The Tree is Not Symmetrical");
             }
                
             
 
         }
 
-        public bool IsSymmetric(TreeNode root)
+        public static bool IsSymmetric(TreeNode root)
         {
             var queue = new Queue<TreeNode>();
             //This is creating a quee from the TreeNode class
